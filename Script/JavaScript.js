@@ -1,10 +1,10 @@
 
-const DEFAULT_SIZE = 32;
+const DEFAULT_SIZE = 64;
 const DEFAULT_COLOR = "black";
 
 let grid_container = document.querySelector('.grid-container');
-grid_container.style.gridTemplateColumns = "repeat(32 , 1fr)";
-grid_container.style.gridTemplateRows = "repeat(32, 1fr)";
+grid_container.style.gridTemplateColumns = "repeat(64 , 1fr)";
+grid_container.style.gridTemplateRows = "repeat(64, 1fr)";
 
 let colorStyle = DEFAULT_COLOR;
 let rainbowMode = document.querySelector('#rainbow');
